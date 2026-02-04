@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
   "dependencies": {
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
@@ -8,3 +12,4 @@
     "@types/swagger-ui-express": "^4.1.8"
   }
 }
+
